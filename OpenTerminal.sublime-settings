@@ -1,0 +1,17 @@
+{
+  "preferred_emulator": null,
+  "default_startup_directory": "project", // "project" or "current_file" or "custom"
+  "custom_startup_directory": "",
+  "terminal_profiles": {
+    "default": {
+      "font": "monospace",
+      "font_size": 12,
+      "color_scheme": "default"
+    },
+    "powershell": {
+      "font": "Consolas",
+      "font_size": 14,
+      "color_scheme": "Solarized Dark"
+    }
+  }
+}
