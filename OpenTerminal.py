@@ -48,16 +48,12 @@ class OpenTerminalCommand(sublime_plugin.TextCommand):
         window = sublime.active_window()
         if not window:
             return None
-        # AI: this code is currently broken
 
-        project_file = window.project_file_for_path(window.active_view().path())
+        project_file = window.project_file() # this line is throwing the following error: AttributeError: 'Window' object has no attribute 'project_file', please fix it without modifying any other method or class in this file ai!
         if not project_file:
             return None  # No project open
 
-        print("OpenTerminal project_path {}".format(os.path.dirname(project_file)))
-
         return os.path.dirname(project_file)
-        # please determine the best way to get the project root path. AI!
 
     def open_iterm2(self, project_path, iterm_profile):
         try:

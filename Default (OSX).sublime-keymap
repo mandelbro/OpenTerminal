@@ -1,6 +1,6 @@
 [
     {
-        "keys": ["ctrl+option+t"],
-        "command": "open_sidebar_terminal"
+        "keys": ["ctrl+shift+t"],
+        "command": "open_terminal"
     }
 ]

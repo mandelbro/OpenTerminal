@@ -1,0 +1,9 @@
+{
+  "name": "OpenTerminal",
+  "version": "0.1.0",
+  "description": "Opens a terminal panel below the main editor, specifically for iTerm2, in the project root.",
+  "sublime_text": "*",
+  "dependencies": [],
+  "url": "https://github.com/mandelbro/OpenTerminal",  // Replace with your GitHub repo URL
+  "author": "@mandelbro"
+}

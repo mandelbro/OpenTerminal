@@ -1,6 +1,6 @@
-[,
+[
     {
         "caption": "OpenTerminal: Sidebar Terminal",
-        "command": "open_sidebar_terminal"
+        "command": "open_terminal"
     }
 ]
